@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "outDir": "output",
+    "rootDir": "src",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "preserveConstEnums": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "pretty": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "types": [
+    "react",
+    "jest"
+  ],
+  "include": [
+    "typings",
+    "src",
+    "__tests__"
+  ],
+  "exclude": [
+    "output"
+  ],
+  "compileOnSave": false
+}
